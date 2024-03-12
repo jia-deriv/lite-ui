@@ -1,0 +1,70 @@
+/* FONT SIZE */
+$fs-xxs: 12px;
+$fs-xs: 13px;
+$fs-sm: 14px;
+$fs-md: 16px;
+$fs-lg: 18px;
+$fs-xl: 20px;
+$fs-xxl: 22px;
+$fs-heading: 32px;
+
+/* LINE HEIGHT */
+$lh-xxl: 2.4;
+$lh-xl: 2;
+$lh-lg: 1.75;
+$lh-md: 1.5;
+$lh-sm: 1.4;
+$lh-xs: 1.25;
+$lh-xxs: 1;
+
+/* FONT WEIGHT */
+$fw-bold: 700;
+$fw-semibold: 500;
+$fw-normal: 400;
+$fw-light: 300;
+
+/* COLOR */
+$color-black: rgb(34, 40, 49);
+$color-dark-grey: rgb(49, 54, 63);
+$color-light-grey: rgb(238, 238, 238);
+$color-light: rgba(255, 255, 255, 0.6);
+$color-white: rgb(255, 255, 255);
+$color-red: rgba(255, 0, 0, 1);
+$color-orange: rgba(255, 193, 7, 1);
+$color-green: rgba(40, 167, 69, 1);
+$color-dull: rgba(255, 255, 255, 0.4);
+
+/* BORDER RADIUS */
+$border-radius-none: 0px;
+$border-radius-xxs: 2px;
+$border-radius-xs: 4px;
+$border-radius-sm: 6px;
+$border-radius-md: 8px;
+$border-radius-lg: 12px;
+$border-radius-xl: 16px;
+$border-radius-xxl: 24px;
+$border-radius-full: 9999px;
+
+/* BORDER WIDTH */
+$border-width-none: 0px;
+$border-width-light: 1px;
+$border-width-normal: 2px;
+$border-width-semi-bold: 4px;
+$border-width-bold: 6px;
+$border-width-extra-bold: 8px;
+
+/* BREAK POINTS */
+$mobile-width: 320px;
+$tablet-width: 601px;
+$desktop-width: 1280px;
+
+/* BOX SHADOW */
+$box-shadow-none: 0 0 #0000;
+$box-shadow-xs: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+$box-shadow-sm: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+$box-shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+$box-shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1),
+  0 4px 6px -4px rgb(0 0 0 / 0.1);
+$box-shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1),
+  0 8px 10px -6px rgb(0 0 0 / 0.1);
+$box-shadow-xxl: 0 25px 50px -12px rgb(0 0 0 / 0.25);

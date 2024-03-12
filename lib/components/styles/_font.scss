@@ -1,0 +1,28 @@
+@import "./variables";
+
+:root {
+  /* FONT SIZE */
+  --fs-xxs: #{$fs-xxs};
+  --fs-xs: #{fs-xs};
+  --fs-sm: #{fs-sm};
+  --fs-md: #{fs-md};
+  --fs-lg: #{fs-lg};
+  --fs-xl: #{fs-xl};
+  --fs-xxl: #{fs-xxl};
+  --fs-heading: #{fs-heading};
+
+  /* LINE HEIGHT */
+  --lh-xxl: #{$lh-xxl};
+  --lh-xl: #{$lh-xl};
+  --lh-lg: #{$lh-lg};
+  --lh-md: #{$lh-md};
+  --lh-sm: #{$lh-sm};
+  --lh-xs: #{$lh-xs};
+  --lh-xxs: #{$lh-xxs};
+
+  /* FONT WEIGHT */
+  --fw-bold: #{$fw-bold};
+  --fw-semibold: #{$fw-semibold};
+  --fw-normal: #{$fw-normal};
+  --fw-light: #{$fw-light};
+}
