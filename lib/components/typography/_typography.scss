@@ -1,15 +1,15 @@
-@import "./variables";
+@import "../styles/color";
 
 :root {
   /* FONT SIZE */
   --fs-xxs: #{$fs-xxs};
-  --fs-xs: #{fs-xs};
-  --fs-sm: #{fs-sm};
-  --fs-md: #{fs-md};
-  --fs-lg: #{fs-lg};
-  --fs-xl: #{fs-xl};
-  --fs-xxl: #{fs-xxl};
-  --fs-heading: #{fs-heading};
+  --fs-xs: #{$fs-xs};
+  --fs-sm: #{$fs-sm};
+  --fs-md: #{$fs-md};
+  --fs-lg: #{$fs-lg};
+  --fs-xl: #{$fs-xl};
+  --fs-xxl: #{$fs-xxl};
+  --fs-heading: #{$fs-heading};
 
   /* LINE HEIGHT */
   --lh-xxl: #{$lh-xxl};
@@ -25,4 +25,8 @@
   --fw-semibold: #{$fw-semibold};
   --fw-normal: #{$fw-normal};
   --fw-light: #{$fw-light};
+}
+
+.typography__color-primary {
+  color: var(--color-typography-primary);
 }

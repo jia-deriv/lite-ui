@@ -1,7 +1,25 @@
+@import "./variables";
+
 :root {
-  --color-primary: #{$color-black};
-  --color-secondary: #{$color-dull};
-  --color-error: #{$color-red};
-  --color-success: #{$color-green};
-  --color-warning: #{$color-orange};
+  --color-typography-primary: #{$color-black};
+  --color-typography-secondary: #{$color-dull};
+  --color-typography-error: #{$color-red};
+  --color-typography-success: #{$color-green};
+  --color-typography-warning: #{$color-orange};
+}
+
+.theme--light {
+  --color-typography-primary: #{$color-black};
+  --color-typography-secondary: #{$color-dull};
+  --color-typography-error: #{$color-red};
+  --color-typography-success: #{$color-green};
+  --color-typography-warning: #{$color-orange};
+}
+
+.theme--dark {
+  --color-typography-primary: #{$color-white};
+  --color-typography-secondary: #{$color-dull};
+  --color-typography-error: #{$color-red};
+  --color-typography-success: #{$color-green};
+  --color-typography-warning: #{$color-orange};
 }
