@@ -1,5 +1,6 @@
 import type { Preview } from "@storybook/react";
-import { themes } from "@storybook/theming";
+import { withThemeByClassName } from "@storybook/addon-themes";
+import "./styles.scss";
 
 const preview: Preview = {
   parameters: {
@@ -9,13 +10,17 @@ const preview: Preview = {
         date: /Date$/i,
       },
     },
-    darkMode: {
-      dark: { ...themes.dark, appBg: "black" },
-      light: { ...themes.normal, appBg: "white" },
-      darkClass: "theme--dark",
-      lightClass: "theme--light",
-    },
   },
+  decorators: [
+    withThemeByClassName({
+      themes: {
+        light: "theme--light",
+        dark: "theme--dark",
+      },
+      defaultTheme: "light",
+      parentSelector: "body",
+    }),
+  ],
 };
 
 export default preview;
