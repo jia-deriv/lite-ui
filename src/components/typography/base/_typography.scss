@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
 @import "../../styles/color";
 
 :root {
@@ -30,6 +31,10 @@
   --fw-semibold: #{$fw-semibold};
   --fw-normal: #{$fw-normal};
   --fw-light: #{$fw-light};
+}
+
+.typography__base {
+  font-family: "Poppins", sans-serif;
 }
 
 .typography__color-primary {
