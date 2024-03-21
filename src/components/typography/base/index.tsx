@@ -1,5 +1,5 @@
 import clsx from "clsx";
-import React, { HTMLAttributes } from "react";
+import { HTMLAttributes } from "react";
 
 export interface TypographyProps extends HTMLAttributes<HTMLElement> {
   as?: "p" | "span" | THeaders;
