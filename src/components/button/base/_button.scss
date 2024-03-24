@@ -1,0 +1,23 @@
+@import "../../styles/variables";
+
+.button {
+  &--base {
+    &__size {
+      &--xs {
+        padding: $general-spacing-xs $general-spacing-sm;
+      }
+      &--sm {
+        padding: $general-spacing-sm $general-spacing-md;
+      }
+      &--md {
+        padding: $general-spacing-md $general-spacing-lg;
+      }
+      &--lg {
+        padding: $general-spacing-lg $general-spacing-xl;
+      }
+      &--xl {
+        padding: $general-spacing-xl $general-spacing-xxl;
+      }
+    }
+  }
+}

@@ -6,24 +6,36 @@
   --color-typography-error: #{$color-red};
   --color-typography-success: #{$color-green};
   --color-typography-warning: #{$color-orange};
+
+  --color-button-primary: #{$color-black};
+  --color-button-secondary: #{$color-dull};
+  --color-button-error: #{$color-red};
+  --color-button-success: #{$color-green};
+  --color-button-warning: #{$color-orange};
 }
 
 .theme--light {
+  /* TYPOGRAPHY COLOR */
   --color-typography-primary: #{$color-black};
   --color-typography-secondary: #{$color-dull};
   --color-typography-error: #{$color-red};
   --color-typography-success: #{$color-green};
   --color-typography-warning: #{$color-orange};
-  --color-background-primary: #{$color-white};
   --color-typography-light: #{$color-dark-grey};
+
+  /* BACKGROUND COLOR */
+  --color-background-primary: #{$color-white};
 }
 
 .theme--dark {
+  /* TYPOGRAPHY COLOR */
   --color-typography-primary: #{$color-white};
   --color-typography-secondary: #{$color-dull};
   --color-typography-error: #{$color-red};
   --color-typography-success: #{$color-green};
   --color-typography-warning: #{$color-orange};
-  --color-background-primary: #{$color-black};
   --color-typography-light: #{$color-light};
+
+  /* BACKGROUND COLOR */
+  --color-background-primary: #{$color-black};
 }
