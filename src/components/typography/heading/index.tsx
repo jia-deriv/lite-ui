@@ -1,4 +1,3 @@
-import React from "react";
 import { ReactNode } from "react";
 import H1 from "./h1";
 import H2 from "./h2";

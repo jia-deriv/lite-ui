@@ -15,6 +15,7 @@
   --color-typography-success: #{$color-green};
   --color-typography-warning: #{$color-orange};
   --color-background-primary: #{$color-white};
+  --color-typography-light: #{$color-dark-grey};
 }
 
 .theme--dark {
@@ -24,4 +25,5 @@
   --color-typography-success: #{$color-green};
   --color-typography-warning: #{$color-orange};
   --color-background-primary: #{$color-black};
+  --color-typography-light: #{$color-light};
 }
