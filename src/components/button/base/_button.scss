@@ -1,7 +1,12 @@
 @import "../../styles/variables";
+@import "../../styles/color";
 
 .button {
   &--base {
+    border: $border-width-light solid;
+    background-color: transparent;
+    transition: $basic-transition;
+
     &__size {
       &--xs {
         padding: $general-spacing-xs $general-spacing-sm;
@@ -17,6 +22,75 @@
       }
       &--xl {
         padding: $general-spacing-xl $general-spacing-xxl;
+      }
+    }
+
+    &__rounded {
+      &--xs {
+        border-radius: $border-radius-xs;
+      }
+      &--sm {
+        border-radius: $border-radius-sm;
+      }
+      &--md {
+        border-radius: $border-radius-md;
+      }
+      &--lg {
+        border-radius: $border-radius-lg;
+      }
+      &--xl {
+        border-radius: $border-radius-xl;
+      }
+      &--full {
+        border-radius: $border-radius-full;
+      }
+    }
+
+    &__color {
+      &--primary {
+        border-color: var(--color-button-primary);
+        color: var(--color-button-primary);
+
+        &:hover {
+          background-color: var(--color-button-primary);
+          color: $color-white;
+        }
+      }
+      &--secondary {
+        border-color: var(--color-button-secondary);
+        color: var(--color-button-secondary);
+
+        &:hover {
+          background-color: var(--color-button-secondary);
+          color: $color-white;
+        }
+      }
+      &--warning {
+        border-color: var(--color-button-warning);
+        color: var(--color-button-warning);
+
+        &:hover {
+          background-color: var(--color-button-warning);
+          color: $color-white;
+        }
+      }
+      &--error {
+        border-color: var(--color-button-error);
+        color: var(--color-button-error);
+
+        &:hover {
+          background-color: var(--color-button-error);
+          color: $color-white;
+        }
+      }
+      &--success {
+        border-color: var(--color-button-success);
+        color: var(--color-button-success);
+
+        &:hover {
+          background-color: var(--color-button-primary);
+          color: $color-white;
+        }
       }
     }
   }

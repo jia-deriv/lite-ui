@@ -88,3 +88,10 @@ $general-spacing-md: 16px;
 $general-spacing-lg: 24px;
 $general-spacing-xl: 32px;
 $general-spacing-xxl: 48px;
+
+$transition-duration: 0.3s;
+$transition-timing-function: ease-in-out;
+$transition-property: all;
+
+$basic-transition: $transition-property $transition-duration
+  $transition-timing-function;
