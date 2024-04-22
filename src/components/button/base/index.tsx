@@ -12,8 +12,8 @@ export interface ButtonProps extends HTMLAttributes<HTMLButtonElement> {
 
 const Base = ({
   className,
-  variant,
-  color,
+  variant = "contained",
+  color = "primary",
   size = "md",
   rounded = "md",
   ...rest
@@ -24,7 +24,7 @@ const Base = ({
         `button--base`,
         `button--base__size--${size}`,
         `button--base__rounded--${rounded}`,
-        `button--base__color--${color}`,
+        `button--base__variant--${variant}__color--${color}`,
         className
       )}
       {...rest}

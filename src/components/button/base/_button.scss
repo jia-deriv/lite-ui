@@ -6,6 +6,102 @@
     border: $border-width-light solid;
     background-color: transparent;
     transition: $basic-transition;
+    cursor: pointer;
+
+    &__variant {
+      &--contained {
+        &__color {
+          &--primary {
+            background-color: var(--color-button-primary);
+            color: $color-white;
+
+            &:hover {
+              border-color: var(--color-button-primary);
+              background-color: #{$color-white};
+              color: var(--color-button-primary);
+            }
+          }
+
+          &--secondary {
+            background-color: var(--color-button-secondary);
+            color: $color-white;
+
+            &:hover {
+              border-color: $color-dark-grey;
+              background-color: $color-white;
+              color: $color-dark-grey;
+            }
+          }
+
+          &--warning {
+            background-color: var(--color-button-warning);
+            color: $color-white;
+
+            &:hover {
+              border-color: $color-white;
+              background-color: $color-white;
+              color: var(--color-button-warning);
+            }
+          }
+
+          &--error {
+          }
+
+          &--success {
+          }
+        }
+      }
+
+      &--outlined {
+        &__color {
+          &--primary {
+            border-color: var(--color-button-primary);
+            color: var(--color-button-primary);
+
+            &:hover {
+              background-color: var(--color-button-primary);
+              color: $color-white;
+            }
+          }
+          &--secondary {
+            border-color: var(--color-button-secondary);
+            color: var(--color-button-secondary);
+
+            &:hover {
+              background-color: var(--color-button-secondary);
+              color: $color-white;
+            }
+          }
+          &--warning {
+            border-color: var(--color-button-warning);
+            color: var(--color-button-warning);
+
+            &:hover {
+              background-color: var(--color-button-warning);
+              color: $color-white;
+            }
+          }
+          &--error {
+            border-color: var(--color-button-error);
+            color: var(--color-button-error);
+
+            &:hover {
+              background-color: var(--color-button-error);
+              color: $color-white;
+            }
+          }
+          &--success {
+            border-color: var(--color-button-success);
+            color: var(--color-button-success);
+
+            &:hover {
+              background-color: var(--color-button-primary);
+              color: $color-white;
+            }
+          }
+        }
+      }
+    }
 
     &__size {
       &--xs {
@@ -43,54 +139,6 @@
       }
       &--full {
         border-radius: $border-radius-full;
-      }
-    }
-
-    &__color {
-      &--primary {
-        border-color: var(--color-button-primary);
-        color: var(--color-button-primary);
-
-        &:hover {
-          background-color: var(--color-button-primary);
-          color: $color-white;
-        }
-      }
-      &--secondary {
-        border-color: var(--color-button-secondary);
-        color: var(--color-button-secondary);
-
-        &:hover {
-          background-color: var(--color-button-secondary);
-          color: $color-white;
-        }
-      }
-      &--warning {
-        border-color: var(--color-button-warning);
-        color: var(--color-button-warning);
-
-        &:hover {
-          background-color: var(--color-button-warning);
-          color: $color-white;
-        }
-      }
-      &--error {
-        border-color: var(--color-button-error);
-        color: var(--color-button-error);
-
-        &:hover {
-          background-color: var(--color-button-error);
-          color: $color-white;
-        }
-      }
-      &--success {
-        border-color: var(--color-button-success);
-        color: var(--color-button-success);
-
-        &:hover {
-          background-color: var(--color-button-primary);
-          color: $color-white;
-        }
       }
     }
   }
